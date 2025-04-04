@@ -52,10 +52,10 @@ var cigarettePrices = [3.5, 7.0, 2.0, 4.5];
 var tariffs = [34, 20, 46, 32];
 
 var updatePrices = [
-    (cigarettePrices[0]*tariffs[0])/100+cigarettePrices[0], 
-(cigarettePrices[1]*tariffs[1])/100+cigarettePrices[1], 
-(cigarettePrices[2]*tariffs[2])/100+cigarettePrices[2], 
-(cigarettePrices[3]*tariffs[3])/100+cigarettePrices[3]
+    cigarettePrices[0]*tariffs[0]/100+cigarettePrices[0], 
+cigarettePrices[1]*tariffs[1]/100+cigarettePrices[1], 
+cigarettePrices[2]*tariffs[2]/100+cigarettePrices[2], 
+cigarettePrices[3]*tariffs[3]/100+cigarettePrices[3]
 ];
 
 console.log(`il prezzo delle sigarette importate da Cina, Europa, Vietnam, Taiwan fino al 2 aprile 2025 sono: Cina ${cigarettePrices[0]}, Europa ${cigarettePrices[1]}, Vietnam ${cigarettePrices[2]}, Taiwan ${cigarettePrices[3]}`)
